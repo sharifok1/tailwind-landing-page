@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Noticia+Text&family=Roboto&display=swap');
+.homePage{
+    font-family: 'Roboto', sans-serif;
+}
+/* a{
+    font-size: 14px;
+} */
+.mail-design{
+    border: 1.5px solid #FF5733;
+    padding: 8px;
+    border-radius: 50%;
+}
+.avatar{
+    height: 200px;
+    width: 300px;
+}
+.circle{
+    border-radius: 50%;
+}
+.noticia-font{
+    font-family: 'Noticia Text', serif;
+}
+.testimonial blockquote {
+    position: relative;
+  }
+.testimonial blockquote:before {
+    content: "\201C";
+    position: absolute;
+    font-size: 100px;
+    line-height: 1;
+    color: #DBDBDB;
+    font-weight: 700;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    left: 10%;
+    top: 40px;
+  }
+  @media screen and (max-width:768px) {
+    .testimonial blockquote:before {
+        content: "\201C";
+        position: absolute;
+        font-size: 50px;
+        line-height: 1;
+        color: #DBDBDB;
+        font-weight: 700;
+        font-family: "Open Sans", Helvetica, sans-serif;
+        left:-20px;
+        top: -20px;
+      }
+      .exprenced{
+        margin: 0 10px;
+      }
+  }
